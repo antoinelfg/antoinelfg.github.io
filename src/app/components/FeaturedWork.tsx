@@ -57,7 +57,7 @@ export function FeaturedWork() {
             </p>
           </div>
           <a
-            href="#/projects"
+            href="/projects"
             className="hidden md:flex items-center space-x-2 text-[var(--orange)] hover:text-[var(--orange-dark)] transition-colors group"
           >
             <span>View All Projects</span>
@@ -131,7 +131,7 @@ export function FeaturedWork() {
           className="md:hidden mt-8 text-center"
         >
           <a
-            href="#/projects"
+            href="/projects"
             className="inline-flex items-center space-x-2 text-[var(--orange)] hover:text-[var(--orange-dark)] transition-colors"
           >
             <span>View All Projects</span>
