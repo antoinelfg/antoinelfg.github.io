@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { Github, Linkedin, Mail, ExternalLink, Download, ArrowRight } from "lucide-react";
 import { GeometricBackground } from "./GeometricBackground";
-import profilePhoto from "figma:asset/239266f6cf4db51482dcbf04e182550bbfdc0bf3.png";
+const profilePhoto = "/profile.png";
 import cvHtml from "/src/imports/Antoine_laforgue_(3)-1.html?raw";
 
 export function Hero() {
