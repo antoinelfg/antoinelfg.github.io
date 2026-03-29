@@ -42,7 +42,7 @@ export function FeaturedWork() {
   };
 
   return (
-    <section className="py-24 px-6 lg:px-8">
+    <section id="projects" className="py-24 px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -57,7 +57,7 @@ export function FeaturedWork() {
             </p>
           </div>
           <a
-            href="/projects"
+            href="#projects"
             className="hidden md:flex items-center space-x-2 text-[var(--orange)] hover:text-[var(--orange-dark)] transition-colors group"
           >
             <span>View All Projects</span>
