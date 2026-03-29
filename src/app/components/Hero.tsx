@@ -80,7 +80,7 @@ export function Hero() {
               className="flex flex-wrap gap-4 mb-8"
             >
               <a
-                href="/projects"
+                href="#projects"
                 className="inline-flex items-center space-x-2 px-6 py-3 bg-[var(--orange)] text-white rounded-lg hover:bg-[var(--orange-dark)] transition-all transform hover:scale-105"
               >
                 <span>View Projects</span>
